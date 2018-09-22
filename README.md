@@ -35,7 +35,7 @@ composer require Yutthanaa/php-line-notify
 $token = 'OXbNNfvjYdpeQq6yH1UnriEwikhyaF7f2QHJ5iXTyOR';
 $ln = new KS\Line\LineNotify($token);
 
-$text = 'Hello Line Notify';
+$text = 'มีรัยออกมามั้ย';
 $ln->send($text);
 ```
 
